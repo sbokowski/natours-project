@@ -1,0 +1,67 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/bg-video";
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/form";
+@import "components/stories";
+@import "components/card";
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+
+@import "pages/home";
+
+//  Sass scss file
+// declare variable with $
+// sign  $color-nameof-color 
+// creat some variables 
+// to run and compile sass  we 
+// have to run  a command in the terminal
+//  run command use this for autoomatic edit
+// change when edit code 
+//            run command in terminal
+//            npm run compile:sass
+// write down what you install or 
+//  use terminal may have to be running
+//  does not work > npm install live-server <
+
+  
+// /* step 1  unversal selector
+//       1 make all margin / padding 0 
+
+
+
+// /* go from top to right top , top to left 
+// bottom , to right  direction draw a 
+// polygon */
+// /* clip-path: polygon(50% 0,100% 100%,0 100% ) */
+
+// /*  example using clip with a design  */
+// /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+// /*  Set gradient help website https://cssgradient.io/ */ 
+//
+// /* step 3 logo  */
+// /* use top left , bottom , left  positioning  */
+
+
+
+
+// /* Step  name top block name__name-name so keep 
+//    classes from being confusing and orgainizing */
+// /* how to center textbox use absolute positioning */
+
+
+
+
+
+ 
