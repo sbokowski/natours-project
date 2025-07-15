@@ -1,0 +1,290 @@
+Note:
+ project overview : 
+
+ Step 
+  What you will learn in this lecture?
+     The best way to perform a basic 
+     reset using the universal selector
+    
+     HOw to set project wide fornt 
+     defintions.
+
+     How to clip parts of elemnts using
+     clip-path
+   
+   Step 1
+  
+      Needed setup:
+ the uviversal selector , inheritance
+ files, css, folders , starter file
+Help  on project:
+so lets start coding in the next video !
+
+Step  2 
+notes:  fonts 
+Classification: Humanist , font type
+For naturtours - we are using "Lato" font family 
+
+Step 3
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+Step 4
+ Note: set the fornt weight to 400 
+ in body  
+ 
+ Step 2
+ Set a background image with 2 colors for gradiet
+ color , to overlay image gradient.
+
+ Step 3  
+      clip-path , specify a polygon 
+  next we use a modern css property called 
+  clipath,  a closed vector path or shape used to cut out
+   or mask an image or element
+  
+           clip path maker
+     verital image 
+        clip-path: polygon(0 0, 16% 0, 16% 100%, 0% 100%);
+
+            make different shapes 
+  https://bennettfeely.com/clippy/
+
+  note: img element is an inline 
+  
+  Step 4 
+    logo image  install , use ablsolute positioning
+
+ Step 5 
+   make h1 tag , h1 tag is important tag for 
+ google looking for . with the span element
+
+   note : by default span element is inline 
+
+   Step 6  
+     Makke   Outdoors 
+          is where life happpers   >>> center 
+  <!--  align in center with absolute positionning -->
+ 
+ Step 7 
+   next do some animation to  
+     Outdoors  , using @keyframes 
+     @keyframes moveInLeft 
+           {
+       0%  {
+         
+       }
+           
+        80% {
+
+        }
+        100% {
+
+        }
+      }
+
+      Step 8
+       design button hover , 
+      center ,  add padding, 
+
+      Step 9 
+        add margin for button 60px
+
+      Step 10 
+        adjust hover button
+
+      Step 11
+          make hover button hoaver 
+      and activer mover up annd down 
+      and border raduis 
+      add tranition to button 
+     
+     Step  11 
+        Specificity , remember what markup 
+        gets the value , when codes gets 
+        complex , know the specificity of 
+        what will get the higher specific 
+        where your code , if something is not
+        working in your code .
+       
+    Step 11 
+       How css values are processed
+         Font width ,
+           if not declared has 
+         a default value of 16px;
+
+    Step 11a 
+        Inheritance - passes the values for some
+      specific properites from parents to
+      children
+
+    Step 12  Build a complex button pt 2 ?? 
+        did not finish 
+
+    Step 13    
+          Implementing BEM in the Natours 
+           projext
+        Block, , Elemeent , Modifier 
+       The Block, Element, Modifier methodology 
+       (commonly referred to as BEM) is a popular
+        naming convention 
+       for classes in HTML and CSS.
+      
+   Steop 14 
+     The Think  - Build -Architect Mindset
+
+    Responsive design ,
+     Code should be maintainable 
+      Performance
+
+    Clear, modular , reusable , ready for growth
+
+      thnk about the layout of your webpag
+      build your layout in html and css with consisten
+      create a logical arctitecture for file, etc
+  
+      Component - which will speed up your 
+       development  
+
+  Step  15 
+     the 7 folders
+       7 different folders for partail  Sass
+       files and 1 main  
+       base , components, layout, pages ,
+       themes, abstracts , vendors.
+
+     Step 16 
+          Section: 
+     
+       Introduction to SASS and Npm
+
+        Lesson 
+
+         What is SASS  
+         Sass is a css pre procesor and extention 
+         of CSS , which adds power and elegance 
+         to the basic language 
+
+         What are the features that sass gives us?
+         
+        First we have 
+
+         Variables 
+         - for reusable values such as
+         colors, fornt, font-sizes , spacing,etc
+
+         Next we have Nesting
+
+         Nesting - 
+          to nest selectors inside of one 
+         another allowing us to write less code
+
+         Next up 
+         
+         Operators -
+          for mathemical operations 
+          right inside of CSS
+         
+        Next up 
+
+        Partials and imports - 
+        to write CSS in different files and importing
+        them all into one single flie
+
+        Next 
+
+         Mixins -
+         to write reusable pieces of CSS code
+
+        Next
+
+         Functions -
+         similar to mixins with difference that 
+         they produce a value that can be used
+
+         Next up 
+
+         Extends -
+         to make different selectors inherit 
+         declarations that are common to all of
+         them   
+
+         and finally 
+
+         Control directives -
+         for writing complex code using 
+         conditonal and loops , >
+          > not covered in this course
+       
+       Step 
+          Use codepen  for SASS , go to seting 
+          change the setting  in CSS preprossor
+
+         Note on Advanced CSS: 
+            calculating windows font size , parents and
+              inheriance
+          
+            How CSS Style Sheet is parsed , value processing :
+             Advanced CSS 
+ 
+              Each property has a value initially , used if 
+              nothing is declared  and if   there is no 
+              inheritance .
+
+             Browser specify  root size for fonts , for 
+              page -usually 16px.
+
+             Percentages and relative values are always converted
+              to pixels .
+
+            Percentages are measured to their parent's  font size,
+            if used to  specify                 
+
+             Vh and vw  are simply. percentages measurements of 
+             view ports   heights and width
+
+            rems font size are always measure relative to to the
+             documents   root font size..
+
+         Lessons 
+
+         Next Lecture , where we are going to talk about 
+          inheritance that we only touched breifly in previous 
+          lecture.
+
+          Inheritance 
+
+          So, Inheritance is a way of propagating property.
+          values , from parent element to their  children
+
+          Inheritance , 
+          there are some propertys that can be inherited
+          and others are not
+
+          Line-height -
+            get inherited ,gets computed 
+          value from its parent elemnt  , it will get 
+          a computed value
+
+          Inheritance passes the values for some specific
+          properties from parent to children - 
+           -->  more maintainable code. 
+
+          The inherit keyword forces inheritance on a 
+          certain property . 
+
+       Lesson 
+
+       IN this lecture how and why we use rem units 
+       in out project, and why you should do the 
+       same.  And of course , work flow to convert
+       pixels to rem in the easiest way.
+
+        Lesson change rem values to px
+       Set meaurements to rem  
+    
+    Lesson
+   
+   Note :
+    Internet explorer does not support rem values;
